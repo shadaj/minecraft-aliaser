@@ -1,0 +1,15 @@
+main: org.shadaj.AliaserPlugin
+name: Aliaser
+version: 1.3
+author: shadaj
+description: A plugin that lets you create aliases for commands.
+commands:
+  addalias:
+    description: Command to add an alias.
+    usage: /<command> <alias> <original>
+  listaliases:
+    description: Command to list all recorded aliases.
+    usage: /<command>
+  '':
+    description: Key for using an alias.
+    usage: /<command> <key>
