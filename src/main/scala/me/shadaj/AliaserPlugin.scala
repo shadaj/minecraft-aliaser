@@ -1,11 +1,10 @@
-package org.shadaj
+package me.shadaj
 
-import org.bukkit.plugin.java.JavaPlugin
 import org.bukkit.command.CommandSender
 import org.bukkit.command.Command
 import org.bukkit.entity.Player
 
-class AliaserPlugin extends JavaPlugin {
+class AliaserPlugin extends ScalaPlugin {
   var aliasMap = Map[String, String]()
   
   override def onCommand(sender: CommandSender, command: Command, label: String, args: Array[String]): Boolean = {
